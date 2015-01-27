@@ -23,13 +23,13 @@ viewbox(
     "  VERSION : "+ini_get("rom_version")+"\n"+
     "  UPDATED : "+ini_get("rom_date")+"\n\n"+
     "Press Next To Continue The Installation...",
-  "icons/info"
+  "icons/welcome"
 );
 
 agreebox(
   "Licensing Agreement",
   "Please Read This Carefully...",
-  "icons/agreement",
+  "icons/license",
   readfile_aroma("license.txt"),
   "I Have Read And Agree To The Licensing Agreement",
   "Please Agree To The Licensing Agreement..."
@@ -55,7 +55,7 @@ viewbox(
   "The Point of No Return",
   "Click Next To Initiate The Installation...\n\n"+
   "Or Press Menu to Abort and Never Look Back...\n\n",
-  "icons/info"
+  "icons/confirm"
 );
 
 install(
