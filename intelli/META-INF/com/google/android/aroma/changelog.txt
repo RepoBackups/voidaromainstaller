@@ -1,6 +1,7 @@
 Jan 26
 -Add -floop-nest-optimize
 -Switch to AROMA Installer
+-Add -Intelli or -TripNDroid Identifier to the Kernel Version
 
 Jan 25
 -Maintain Intelli_Plug and TRIPNDROID Versions of Kernel
