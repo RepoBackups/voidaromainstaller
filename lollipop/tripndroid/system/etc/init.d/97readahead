@@ -1,0 +1,10 @@
+#!/system/bin/sh
+# ========================================
+# init.d script for Android Revolution HD 
+# ========================================
+
+# Increase readahead buffers on eMMC devices
+    echo "256" > /sys/block/mmcblk0/bdi/read_ahead_kb
+    echo "256" > /sys/block/mmcblk1/bdi/read_ahead_kb
+    log -p i -t ARHD "Readahead buffers tweaked"
+
