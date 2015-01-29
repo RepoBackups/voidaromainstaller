@@ -1,5 +1,6 @@
 Jan 28
 -Fix Governor Overrides in ramdisk
+-Choose Westwood as Default
 
 Jan 26
 -Add -floop-nest-optimize
