@@ -1,3 +1,6 @@
+Jan 30
+-Remove Speed Tweaks
+
 Jan 28
 -Fix Governor Overrides in ramdisk
 -Choose Westwood as Default
