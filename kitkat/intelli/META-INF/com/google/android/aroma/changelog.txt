@@ -1,9 +1,15 @@
 Jan 30
+-Switch to XZ Compression
+-Switch back to -O3 (forces strict standards compliance unlike -Ofast)
+-Compile Prima with -O3
 -Remove Speed Tweaks
 
 Jan 28
 -Fix Governor Overrides in ramdisk
 -Choose Westwood as Default
+
+Jan 27
+-Bump Voltages for 1.782GHz
 
 Jan 26
 -Add -floop-nest-optimize
