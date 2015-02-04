@@ -2,7 +2,7 @@ ini_set("rom_name",             "Void Kernel");
 ini_set("rom_version",		"TripNDroid KK");
 ini_set("rom_author",           "javelinanddart");
 ini_set("rom_device", 		"HTC One S");
-ini_set("rom_date", 		"26/01/2015");
+ini_set("rom_date", 		"04/02/2015");
 ini_set("transition",           "stack");
 ini_set("force_colorspace",     "rgba");
 

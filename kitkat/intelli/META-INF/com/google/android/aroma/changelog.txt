@@ -1,3 +1,17 @@
+Feb 4
+-Proper Underclocking options to 81MHz
+
+Feb 3
+-Linux 3.4.106
+-Update Powersuspend Driver
+
+Feb 2
+-RB Tree Optimization in Lowmemory Killer
+
+Jan 31
+-cpufreq_notify_utilization
+-Fix derp in L2 Cache Table
+
 Jan 30
 -Switch to XZ Compression
 -Switch back to -O3 (forces strict standards compliance unlike -Ofast)
