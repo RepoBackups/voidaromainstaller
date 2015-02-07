@@ -1,3 +1,7 @@
+Feb 6
+-Remove Underclocking to 81MHz
+-Add Preservative Governor
+
 Feb 4
 -Proper Underclocking options to 81MHz
 
