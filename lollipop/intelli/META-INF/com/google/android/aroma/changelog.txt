@@ -1,71 +1,24 @@
-Jan 30
--Remove Speed Tweaks
+Feb 10
+-Merge with CM
+-Merge Linux 3.4.106
 
-Jan 28
--Fix Governor Overrides in ramdisk
--Choose Westwood as Default
+Feb 6
+-DT2S
+-DT2S CMDLINE Interfacing
+-Fix CMDLINE Grammar for S2W, DT2W, DT2S, and Pocket Detection
 
-Jan 26
--Add -floop-nest-optimize
--Switch to AROMA Installer
--Add -Intelli or -TripNDroid Identifier to the Kernel Version
+Feb 5
+-Fix Compilation Error
 
-Jan 25
--Maintain Intelli_Plug and TRIPNDROID Versions of Kernel
--DM-Crypt Intelli_Plug Boost Option
--Add Neon Optimized SHA Routines
--Compilation Fixes
--Add ElementalX Governor + Graphics Boost
--Update BFQ to v7r7
+Feb 4
+-Build Prima as -O3
+-Fastcharge from @Faux123 (adjustable levels) with CMDLINE from me
 
-Jan 17
--Add Underclocking Option to 192MHz
--Make TRIPNDROID Governor and Hotplug aware of the TRIPNDROID Framework (Improves Battery Life)
+Feb 3
+-Fix Typo in DT2W CMDLINE
 
-Jan 16
--Add more optimization levels on github
-
-Jan 15
--Add Lionheart and Badass Governors
-
-Jan 14
--Release Experimental Version with TDF Hotplug Driver
-
-Jan 10
--Merge with Latest CM Commits
--Intelli_Plug updated to 3.9 (from 3.8)
--Still for KitKat
-
-Dec 16
-Switch to working on Lollipop, start from CM sources
--Update to Linux 3.4.105
--Merge with CAF
-
-Dec 15
--Release test build with SaberMod Toolchain
-
-Dec 4
--Fix DT2W and S2W and S2S
-
-Dec 2
--Switch to intelliplug for main build
--Update to Linux 3.4.105
-
-Dec 1
--Add intellmm governor and choose as default
--Add intelliplug and choose as default, release test build
-
-Nov 29
--Switch to XZ Kernel Compression for faster boot times and better performance
--Rename to Void Kernel
-
-Nov 26
--Fix potential memory corruption issues
-
-Nov 21
--Initial Release
--Add OC to 1.8GHz
--OC L2 Cache to 1.8GHz
--Add FiFo, VR, Zen, and TripNdroid I/O schedulers
--Add FRANDOM support
--Update to Linux 3.4.104
+Jan 31
+-Initial Import of IceCode
+-BLN with CMDLINE
+-DT2W and S2W with CMDLINE
+-QSEECOM Support
