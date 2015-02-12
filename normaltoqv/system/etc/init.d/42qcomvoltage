@@ -21,7 +21,7 @@ echo " 1350000  1150000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
 echo " 1404000  1150000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
 echo " 1458000  1150000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
 echo " 1512000  1150000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
-echo " 1674000  1275000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
-echo " 1728000  1300000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+echo " 1674000  1300000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
 echo " 1728000  1325000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+echo " 1728000  1350000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
 
