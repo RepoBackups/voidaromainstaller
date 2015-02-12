@@ -19,4 +19,6 @@ unmount("/system");
 set_progress(0.8);
 
 ui_print("Patch Installed");
+set_progress(0.9);
 ui_print("Enjoy!");
+set_progress(0.95);
