@@ -1,6 +1,6 @@
 ui_print("You Are Installing...");
 ui_print("The Qualcomm Voltages Patch!");
-ui_print("----------------------------------------------");
+ui_print("--------------------------------------");
 ui_print("");
 ifelse(is_mounted("/system") == "/system", unmount("/system"));
 ifelse(is_mounted("/cache") == "/cache", unmount("/cache"));

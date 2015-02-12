@@ -17,7 +17,7 @@ viewbox(
   "Welcome",
     "\n\n\n\n\n"+
     "           	You're About To Flash\n"+
-    "      		"+ini_get("rom_name")+" for "+ini_get("rom_device")+"\n\n"+
+    "      		"+ini_get("rom_name")+"\n\n"+
     "\n\n\n"+
     "  AUTHOR :  "+ini_get("rom_author")+"\n"+
     "  VERSION : "+ini_get("rom_version")+"\n"+
