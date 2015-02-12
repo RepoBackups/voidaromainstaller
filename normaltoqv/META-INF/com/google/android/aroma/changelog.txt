@@ -1,0 +1,7 @@
+Feb 12
+-Update to use AROMA Installer
+-Bump the Voltages a little bit
+-Add the 1.782 GHz Voltage
+
+Nov 21
+-Initial Upload of rmbq's normaltoQV patch

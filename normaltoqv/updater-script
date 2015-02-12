@@ -1,0 +1,22 @@
+ui_print("");
+ui_print("Welcome to the Qualcomm Voltages Patch");
+ui_print("----------------------------------------------");
+ui_print("");
+ifelse(is_mounted("/system") == "/system", unmount("/system"));
+ifelse(is_mounted("/cache") == "/cache", unmount("/cache"));
+set_progress(0.1);
+
+ui_print("Mounting system...");
+run_program("/sbin/busybox", "mount", "/system");
+set_progress(0.2);
+
+ui_print("Installing the Qualcomm Voltages Patch...");
+package_extract_dir("system", "/system");
+set_perm_recursive(0, 2000, 0777, 0777, "/system/etc/init.d");
+
+ui_print("Unmounting system...");
+unmount("/system");
+set_progress(0.8);
+
+ui_print("Patch Installed");
+ui_print("Enjoy!");
