@@ -1,3 +1,7 @@
+Feb 19
+-Build SCSI_WAIT_SCAN into the Kernel
+-Build exFAT into the Kernel
+
 Feb 11
 -DT2S
 -Remove CMDLINE Interfacing for S2W, We don't use it in KK
